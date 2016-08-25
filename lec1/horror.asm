@@ -1,5 +1,5 @@
 % копипаста с http://mech.math.msu.su/~zubr/asm.html
-% программа выводит Hello world
+% программа выводит Hello world на ассемблере.
 
 
 .section .data

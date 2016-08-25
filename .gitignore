@@ -377,3 +377,5 @@ paket-files/
 .DS_Store
 .gitignore
 
+~*.pptx
+

@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 //TODO: unsigned
 
@@ -12,6 +13,8 @@ int main()
     printf("sizeof(float) = %lu bytes\n", sizeof(float));
     printf("sizeof(double) = %lu bytes\n", sizeof(double));
     printf("sizeof(long double) = %lu bytes\n", sizeof(long double));
+
+    true;
 
     return 0;
 }

@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h>
 
 int main()
 {
@@ -26,4 +26,12 @@ int main()
          n = 0;
 
     printf("n = %d\n", n);
+
+    int result;
+    if (n == 5) result = 1;
+    else result = -10;
+
+    result = (n == 5) ? 1 : -10;
+
+    return 0;
 }

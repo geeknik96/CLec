@@ -20,10 +20,7 @@ int main()
             printf("Hello, World\n");
             break;
         case 2:
-            /*
-             *
-             * const time_t timer = time(NULL);
-             * */
+            // const time_t timer = time(NULL);
             printf("%s\n", ctime(&timer));
             break;
         case 3:
@@ -33,6 +30,7 @@ int main()
             printf("Exit\n");
             break;
     }
+    // del break;
 
     return 0;
 }

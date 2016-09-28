@@ -79,7 +79,6 @@ gen### Linux template
 *.sig
 
 pkg/
-src/
 ### Windows template
 # Windows image file caches
 Thumbs.db

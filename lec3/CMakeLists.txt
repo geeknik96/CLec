@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project(lec2 C)
+project(lec3 C)
 
 add_definitions(-std=c11)
 

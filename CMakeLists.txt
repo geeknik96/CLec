@@ -5,3 +5,5 @@ add_definitions(-std=c99)
 
 add_subdirectory(lec1)
 add_subdirectory(lec2)
+add_subdirectory(lec3)
+add_subdirectory(lec4)

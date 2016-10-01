@@ -37,6 +37,6 @@ float div(float a, float b)
     return a / b;
 }
 
-operation operations[4] = {
+float (*operations[4])(float, float) = {
         add, sub, mul, div
 };

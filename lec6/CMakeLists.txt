@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 2.8)
+project(lec5 C)
+
+add_definitions(-std=c11)
+
+file(GLOB SOURCES *.c)
+
+foreach(src ${SOURCES})
+    get_filename_component(target ${src} NAME_WE)
+    add_executable(${target} ${src} )
+endforeach()
+
+include_directories(include)
+add_executable(list include/List.h include/Node.h src/Node.c src/List.c src/main.c)

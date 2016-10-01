@@ -11,8 +11,7 @@ float div(float a, float b);
 
 int get_operation(char op);
 
-typedef float (*operation)(float, float);
+extern float (*operations[4])(float, float);
 
-extern operation operations[4];
 
 #endif //CALCULATOR

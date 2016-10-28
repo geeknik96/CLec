@@ -10,7 +10,8 @@ int main()
     S2 = pi * d2 * d2 / 4;
 
     S = S2 - S1;
-    printf("S = %d m\n", (int)S);
+    printf("S = %d mmm\n", (int)S);
+    // 80? -> 81
 
     return 0;
 }

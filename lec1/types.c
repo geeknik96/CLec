@@ -6,8 +6,10 @@ int main()
 {
     char symbol = 'a';
     int five = 0x05;
+
     short int difference = -150;
     long big_num = 123456789l;
+
     float temperatureF = 36.6f;
     double temperatureD = 36.6;
 

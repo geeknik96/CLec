@@ -2,12 +2,19 @@
 
 int main()
 {
-    printf("Press \'q\' for exit...\n");
-    while (1)
+    printf("Press ('q\') %%for exit...\n");
+    for(;;)
     {
-        int symbol = getchar();
-        if (symbol == 'q')
-            break;
+        while (1) {
+            int symbol = getchar();
+
+            if (symbol == 'q')
+                break;
+            else if (symbol == '\n')
+                continue;
+            printf("hw!\n");
+        }
+
     }
     return 0;
 }

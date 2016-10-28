@@ -2,9 +2,9 @@
 
 int main()
 {
-    for (int i = 0; i < 10; i++)
+    for (double i = 0; i < 10; i++)
     {
-        printf("%d ", i);
+        printf("%f ", i);
     }
 
     printf("\n");
